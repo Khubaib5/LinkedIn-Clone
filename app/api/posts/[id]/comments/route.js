@@ -2,7 +2,7 @@ import connectDB from "@/lib/db"
 import { Post } from "@/models/post.model"
 import { NextResponse } from "next/server"
 
-export const GET = async (req){
+export const GET = async (req)=>{
     try {
         await connectDB()
         const post  = await Post.findById(_id)

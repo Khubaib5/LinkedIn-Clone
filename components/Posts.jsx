@@ -3,7 +3,7 @@ import Post from './Post'
 
 const Posts = ({posts}) => {
   return (
-    <div className='xs:mx-2'>
+    <div className=''>
       {
         posts?.map((post)=>{
           return (
